@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  rust-9cc:
+    build: .
+    image: hpprc/rust-9cc
+    tty: true
+    volumes:
+      - .:/9cc
+    working_dir: /9cc
